@@ -72,7 +72,7 @@ Connect-MgGraph -Scopes "EntitlementManagement.ReadWrite.All"
 $catalog = New-MgEntitlementManagementCatalog -DisplayName "Marketing"
 ```
 
-## Add resources to a catalog
+## Add resources to a 
 
 To include resources in an access package, the resources must exist in a catalog. The types of resources you can add to a catalog are groups, applications, and SharePoint Online sites.
 
@@ -97,7 +97,7 @@ To add resources to a catalog:
 
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com) as at least an [Identity Governance Administrator](~/identity/role-based-access-control/permissions-reference.md#identity-governance-administrator).
 
-1. Browse to **Identity governance** > **Catalogs**.
+1. Browse to **Identity governance** > **Entitlement management** > **Catalogs**.
 
 1. On the **Catalogs** page open the catalog you want to add resources to.
 
